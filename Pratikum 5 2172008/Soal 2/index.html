@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Christopher Richard Alexander 2172008">
+    <title>Soal 2</title>
+    <style>
+        body {
+           background-image: url(background.jpg); 
+           font-family: 'Nunito', sans-serif;
+        }
+        h1 {
+            color: white; 
+            margin: 20px auto; 
+            text-align: center;
+        }
+        div {
+            margin: 40px auto ; 
+            background-color: rgba(178, 190, 195,0.8); 
+            width: 13cm;
+            padding: 25px 25px 25px 25px;
+        }
+        input.width{
+            width:  13cm; 
+        }
+        select{
+            width: 13.2cm;
+        }
+        li{
+            padding-left: 10px;
+        }
+        input.green{
+            width: 13cm; height: 1cm; 
+            background-color: rgb(26, 172, 111);
+        }
+        input,label,select{
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Fill in this form
+    </h1>
+    <div>
+        <form>
+            <label>Full Name : </label><br>
+            <input class="width" type="text" > <br>
+            <label>Email :</label> <br>
+            <input class="width" type="text"> <br>
+            <label>Age : </label><br>
+            <input class="width" type="text" size="80"> <br>
+            <label>Gender : </label><br>
+            <select>
+            <option>Select Your Gender</option>
+            <option>Laki-laki</option>
+            <option>Perempuan</option>
+            </select> <br>
+            <label>Date of birth : </label><br>
+            <input class="width" type="date"> <br>
+            <label>Choose your laptop : </label><br>
+            <select>
+                <option>Laptop</option>
+                <option>Asus</option>
+                    <ul>
+                        <li><option>Laptop Asus A456UQ</option></li>
+                        <li><option>Laptop Asus E410MA</option></li>
+                        <li><option>Laptop Asus Vivobook K403FA</option></li>
+                        <li><option>Laptop ASUS BR1100CKA-GJ0410</option></li>
+                    </ul>
+                <option>Lenovo</option>
+                    <ul>
+                        <li><option>Laptop Lenovo ideapad S340</option></li>
+                        <li><option>Laptop Lenovo ideapad Slim 3</option></li>
+                        <li><option>Laptop Lenovo T440p</option></li>
+                    </ul>
+            </select>
+            <label>Enter your card number :</label><br>
+            <input class="width" type="text" placeholder="XXXX XXXX XXXX XXXX">
+            <label>Payment : </label><br>
+            <input type="radio" name="cek"><label>1x</label> <br>
+            <input type="radio" name="cek"><label>3x</label> <br>
+            <input type="radio" name="cek"><label>6x</label> <br>
+            <input type="radio" name="cek"><label>12x</label> <br>
+            <label>Which brand do you like : </label><br>
+            <input type="checkbox"><label>Asus</label><br>
+            <input type="checkbox"><label>Lenovo</label><br>
+            <input type="checkbox"><label>Acer</label><br>
+            <input type="checkbox"><label>HP</label><br>
+            <input class="green" type="submit">
+        </form>
+    </div>
+</body>
+</html>
